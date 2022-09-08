@@ -1,30 +1,29 @@
-.top-container {
-    height: 30vw;
-    width: 100vw;
-    background-color: pink;
+.top-container,
+.bottom-container {    
+    width: 100vw;    
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 15px;
+    justify-content: space-between;
+    background-color: pink;
+}
+
+.top-container { 
+    height: 30vw;    
 }
 
 .bottom-container {
     height: 70vw;
-    width: 100vw;
-    background-color: pink;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
 }
 
 .box-item-top {
     width: 33vw;
+    height: 50vw;
     background-color: red;
 }
 
 .box-item-bottom {
     width: 50vw;
+    height: 50vw;
     background-color: blue;
 }
 
