@@ -2,17 +2,20 @@
     height: 100vw;
     width: 100vw;
     background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box-item-top {
     height: 30vw;
-    width: 100vw;
+    width: 40vw;
     background-color: red;
 }
 
 .box-item-bottom {
     height: 70vw;
-    width: 100vw;
+    width: 50vw;
     background-color: blue;
 }
 
