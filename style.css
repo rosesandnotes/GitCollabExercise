@@ -1,12 +1,18 @@
 .top-container {
+    height: 100vw;
+    width: 100vw;
     background-color: pink;
 }
 
 .box-item-top {
+    height: 30vw;
+    width: 100vw;
     background-color: red;
 }
 
 .box-item-bottom {
+    height: 70vw;
+    width: 100vw;
     background-color: blue;
 }
 
