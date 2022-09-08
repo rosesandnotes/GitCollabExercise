@@ -19,14 +19,12 @@
 }
 
 .box-item-top {
-    
     width: 33vw;
     background-color: red;
 }
 
 .box-item-bottom {
-
-    width: 33vw;
+    width: 50vw;
     background-color: blue;
 }
 
