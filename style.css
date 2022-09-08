@@ -16,13 +16,18 @@
 }
 
 .box-item-top {
-    width: 33vw;
+    float: left;
+    width: 33.33vw;
+    padding: 50px;
+    text-align: center;
     background-color: red;
 }
 
 .box-item-bottom {
+    float: left;
     width: 50vw;
-    
+    padding: 50px;
+    text-align: center;
     background-color: blue;
 }
 
