@@ -1,34 +1,40 @@
-.top-container,
-.bottom-container {    
-    width: 100vw;    
+.top-container {    
+    width: 100vw;  
+    height: 30vw;  
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: pink;
-    gap: 40px;
+    background-color: pink;    
 }
 
-.top-container { 
-    height: 30vw;    
-}
-
-.bottom-container {
-    height: 70vw;
+.bottom-container {    
+    width: 100vw; 
+    height: 70vw;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;    
 }
 
 .box-item-top {
-    float: left;
     width: 33.33vw;
-    height: 50vw;
-    text-align: center;
+    height: 27vw;
+    text-align: center;    
     background-color: red;
+    margin: 0px 10px 0px 20px;
 }
 
 .box-item-bottom {
-    float: left;
     width: 50vw;
-    height: 50vw;
+    height: 67vw;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     background-color: blue;
+    margin: 0px 10px 0px 20px;
 }
 
+h1 {
+    font-size: 150px;
+    font-weight: bold;
+}
