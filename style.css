@@ -3,8 +3,9 @@
     width: 100vw;    
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: pink;
+    gap: 40px;
 }
 
 .top-container { 
@@ -12,13 +13,13 @@
 }
 
 .bottom-container {
-    height: auto;
+    height: 70vw;
 }
 
 .box-item-top {
     float: left;
     width: 33.33vw;
-    padding: 50px;
+    height: 50vw;
     text-align: center;
     background-color: red;
 }
@@ -26,7 +27,7 @@
 .box-item-bottom {
     float: left;
     width: 50vw;
-    padding: 50px;
+    height: 50vw;
     text-align: center;
     background-color: blue;
 }
